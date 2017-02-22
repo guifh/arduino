@@ -9,7 +9,7 @@ title:            Arduino Projects
 tagline:          ''
 description:      'Cool Do-It-Yourself projects with Arduino.'
 url:              https://guifh.github.io/arduino/
-baseurl:          /
+baseurl:          https://guifh.github.io/arduino/
 
 author:
   name:           'guifh'
