@@ -4,9 +4,6 @@ gems: [jekyll-paginate]
 markdown:         redcarpet
 highlighter:      pigments
 
-# Permalinks
-permalink:        pretty
-
 # Setup
 title:            Arduino Projects
 tagline:          ''
