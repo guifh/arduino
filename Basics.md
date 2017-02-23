@@ -1,18 +1,13 @@
----
-layout: page
-comments: true
-title: "Focus Stacking Controller"
----
-
 <br>
 
 ### **Disclaimer:**
 
-<p class="message">The authors cannot be held responsible, in any case, for accidents,
+<p class="message">
+The authors cannot be held responsible, in any case, for accidents,
 personal injuries or damages to your camera and electronic equipment
 which either derive from or are caused by use or misuse of the
-information and instructions provided in these tutorials.</p>
-
+information and instructions provided in these tutorials.
+</p>
 <br>
 
 About Focus Stacking
@@ -68,12 +63,12 @@ Note that all prices are in Canadian dollars as of February 18th, 2017.
 </thead>
 <tbody>
 <tr class="odd">
-<td><br>Arduino UNO R3</td>
+<td><br><br>Arduino UNO R3</td>
 <td><img src="./images/arduino.jpg" /></td>
 <td><br><br>$24.99</td>
 </tr>
 <tr class="even">
-<td><br>Arduino motor shield R3</td>
+<td><br><br>Arduino motor shield R3</td>
 <td><img src="./images/motorShield.jpg" /></td>
 <td><br><br>$50.29</td>
 </tr>
@@ -93,7 +88,7 @@ Note that all prices are in Canadian dollars as of February 18th, 2017.
 <td><br><br>$2.29</td>
 </tr>
 <tr class="even">
-<td><br>Shutter release cable</td>
+<td><br><br>Shutter release cable</td>
 <td><img src="./images/shutterCable.jpg" /></td>
 <td><br><br>$8.00</td>
 </tr>
@@ -156,19 +151,19 @@ position.
 
 ### 2.1. Connection to the optocoupler
 
-Wire pin 13 of your Arduino to a 1 M<span>&#8486;</span> resistor (on your breadboard),
-itself connected to leg 1 (anode) of a 4N35 optocoupler (leg 1 is the
-closest to the small engraved circle at the top of the 4N35). Leg 2
-(cathode) of the 4N35 is wired to the ground. You can place a led
-between legs 1 and 2 of the 4N35 that will light up each time the camera
-shutter is triggered. Cut the stereo jack from the shutter release cable
-and strip the three wires. The color of the wires should be (in most
-cases!) red, white and yellow and correspond respectively to the tip,
-ring and sleeve of the stereo jack. The tip (red wire) and the ring
-(white wire) control respectively the camera shutter release and focus.
-The sleeve (yellow wire) is the ground. Connect the red (camera shutter
-release) and white (focus) wires (we welded them together) to leg 5
-(collector) of the 4N35. Connect the yellow wire (ground) to leg 6
+Wire pin 13 of your Arduino to a 1 M<span>Ω</span> resistor (on your
+breadboard), itself connected to leg 1 (anode) of a 4N35 optocoupler
+(leg 1 is the closest to the small engraved circle at the top of the
+4N35). Leg 2 (cathode) of the 4N35 is wired to the ground. You can place
+a led between legs 1 and 2 of the 4N35 that will light up each time the
+camera shutter is triggered. Cut the stereo jack from the shutter
+release cable and strip the three wires. The color of the wires should
+be (in most cases!) red, white and yellow and correspond respectively to
+the tip, ring and sleeve of the stereo jack. The tip (red wire) and the
+ring (white wire) control respectively the camera shutter release and
+focus. The sleeve (yellow wire) is the ground. Connect the red (camera
+shutter release) and white (focus) wires (we welded them together) to
+leg 5 (collector) of the 4N35. Connect the yellow wire (ground) to leg 6
 (emitter) of the 4N35.
 
 <center>
@@ -181,15 +176,17 @@ release) and white (focus) wires (we welded them together) to leg 5
 
 Connect one leg of the button (6 mm pushbutton switch in our case) to
 the 3.3V pin of the Arduino. On the other side of the pushbutton (side
-not connected to the 3.3V), wire a 1 M<span>&#8486;</span> resistor to one leg and connect
-the other leg to pin 2 of your Arduino UNO. The 1 M<span>&#8486;</span> resistor is
-connected to the ground, this makes it a pull-down resistor. A schema of
-the circuit is presented below as well as the code. Upload the code to
-your Arduino UNO and you are done. Enjoy!
+not connected to the 3.3V), wire a 1 M<span>Ω</span> resistor to one leg
+and connect the other leg to pin 2 of your Arduino UNO. The 1
+M<span>Ω</span> resistor is connected to the ground, this makes it a
+pull-down resistor. A schema of the circuit is presented below as well
+as the code. Upload the code to your Arduino UNO and you are done.
+Enjoy!
 
 <br>
 <center>
-![*Breadboard with 4N35 optocoupler and button*](./images/breadboard.JPG)
+![*Breadboard with 4N35 optocoupler and
+button*](./images/breadboard.JPG)
 
 </center>
 <br>
@@ -207,12 +204,12 @@ General schema
 The Code (C\#)
 ==============
 
-In "while(myCount < 5)", you can replace 5 by the number of photos you want to stack.
-You may also want to tune up the number of ms in the delay() functions according to your motor.
+In "while(myCount &lt; 5)", you can replace 5 by the number of photos
+you want to stack. You may also want to tune up the number of ms in the
+delay() functions according to your motor.
 
 <br>
 
-	```csharp
 
     int motordirection = 12;
     int motorbrake = 9;
@@ -279,7 +276,6 @@ You may also want to tune up the number of ms in the delay() functions according
       }
     }
 
-	```
 <br>
 
 General view of the setup
@@ -287,8 +283,8 @@ General view of the setup
 
 <br>
 <center>
-![*Camera with photo stack setup using a old scanner*](./images/fullSetup.JPG)
+![*Camera with photo stack setup using a old
+scanner*](./images/fullSetup.JPG)
 
 </center>
 <br>
-
