@@ -164,7 +164,7 @@ position.
 
 ### 2.1. Connection to the optocoupler
 
-Wire pin 13 of your Arduino to a 1 MO resistor (on your breadboard),
+Wire pin 13 of your Arduino to a 1 M<span>&#8486;</span> resistor (on your breadboard),
 itself connected to leg 1 (anode) of a 4N35 optocoupler (leg 1 is the
 closest to the small engraved circle at the top of the 4N35). Leg 2
 (cathode) of the 4N35 is wired to the ground. You can place a led
@@ -189,8 +189,8 @@ release) and white (focus) wires (we welded them together) to leg 5
 
 Connect one leg of the button (6 mm pushbutton switch in our case) to
 the 3.3V pin of the Arduino. On the other side of the pushbutton (side
-not connected to the 3.3V), wire a 1 MO resistor to one leg and connect
-the other leg to pin 2 of your Arduino UNO. The 1 MO resistor is
+not connected to the 3.3V), wire a 1 M<span>&#8486;</span> resistor to one leg and connect
+the other leg to pin 2 of your Arduino UNO. The 1 M<span>&#8486;</span> resistor is
 connected to the ground, this makes it a pull-down resistor. A schema of
 the circuit is presented below as well as the code. Upload the code to
 your Arduino UNO and you are done. Enjoy!
