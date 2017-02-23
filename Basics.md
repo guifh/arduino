@@ -197,7 +197,7 @@ your Arduino UNO and you are done. Enjoy!
 
 <br>
 <center>
-![*Breadboard with 4N35 optocoupler and button*](./images/breadboard.jpg)
+![*Breadboard with 4N35 optocoupler and button*](./images/breadboard.JPG)
 
 </center>
 <br>
@@ -289,7 +289,7 @@ General view of the setup
 
 <br>
 <center>
-![*Camera with photo stack setup using a old scanner*](./images/fullSetup.jpg)
+![*Camera with photo stack setup using a old scanner*](./images/fullSetup.JPG)
 
 </center>
 <br>
