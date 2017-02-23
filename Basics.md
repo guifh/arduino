@@ -77,32 +77,32 @@ Note that all prices are in Canadian dollars as of February 18th, 2017.
 <tbody>
 <tr class="odd">
 <td><br><br><br>Arduino UNO R3</td>
-<td><img src="./images//arduino.jpg" /></td>
+<td><img src="./images/arduino.jpg" /></td>
 <td><br><br><br>$24.99</td>
 </tr>
 <tr class="even">
 <td><br><br><br>Arduino motor shield R3</td>
-<td><img src="./images//motorShield.jpg" /></td>
+<td><img src="./images/motorShield.jpg" /></td>
 <td><br><br><br>$50.29</td>
 </tr>
 <tr class="odd">
 <td><br>Old broken scanner <br>(Canon MP250 in our case)</td>
-<td><img src="./images//CanonMP250.jpg" /></td>
+<td><img src="./images/CanonMP250.jpg" /></td>
 <td><br><br>$0</td>
 </tr>
 <tr class="even">
 <td><br><br>Electronic Kit with <br> breadboard, jumper wires,<br> resistors, button,<br> a 4N35 optocoupler &amp; leds</td>
-<td><img src="./images//electroKit.jpg" /></td>
+<td><img src="./images/electroKit.jpg" /></td>
 <td><br><br><br><br>$22.99</td>
 </tr>
 <tr class="odd">
 <td><br><br><br> Switched 4 x AA <br> battery pack</td>
-<td><img src="./images//batteryPack.jpg" /></td>
+<td><img src="./images/batteryPack.jpg" /></td>
 <td><br><br><br><br>$2.29</td>
 </tr>
 <tr class="even">
 <td><br><br><br><br>Shutter release cable</td>
-<td><img src="./images//shutterCable.jpg" /></td>
+<td><img src="./images/shutterCable.jpg" /></td>
 <td><br><br><br><br>$8.00</td>
 </tr>
 <tr class="odd">
@@ -143,7 +143,7 @@ brake and direction, respectively.
 <br>
 <center>
 ![*Arduino and motor shield connected to the scanner circuit
-board*](./images//arduinoBoard.jpg)
+board*](./images/arduinoBoard.jpg)
 
 </center>
 <br>
@@ -181,7 +181,7 @@ release) and white (focus) wires (we welded them together) to leg 5
 
 <center>
 ![*Stereo Jack
-connection*](./images//stereoJack.jpg)
+connection*](./images/stereoJack.jpg)
 
 </center>
 <br>
@@ -199,7 +199,7 @@ your Arduino UNO and you are done. Enjoy!
 <br>
 <center>
 ![*Breadboard with 4N35 optocoupler and
-button*](./images//breadboard.jpg)
+button*](./images/breadboard.jpg)
 
 </center>
 <br>
@@ -210,7 +210,7 @@ General schema
 <br>
 <center>
 ![*General schema of the
-setup*](./images//BasicSchema.jpg)
+setup*](./images/BasicSchema.jpg)
 
 </center>
 <br>
@@ -293,7 +293,7 @@ General view of the setup
 <br>
 <center>
 ![*Camera with photo stack setup using a old
-scanner*](./images//fullSetup.jpg)
+scanner*](./images/fullSetup.jpg)
 
 </center>
 <br>
