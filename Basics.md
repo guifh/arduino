@@ -180,8 +180,7 @@ release) and white (focus) wires (we welded them together) to leg 5
 (emitter) of the 4N35.
 
 <center>
-![*Stereo Jack
-connection*](./images/stereoJack.jpg)
+![*Stereo Jack connection*](./images/stereoJack.jpg)
 
 </center>
 <br>
@@ -198,8 +197,7 @@ your Arduino UNO and you are done. Enjoy!
 
 <br>
 <center>
-![*Breadboard with 4N35 optocoupler and
-button*](./images/breadboard.jpg)
+![*Breadboard with 4N35 optocoupler and button*](./images/breadboard.jpg)
 
 </center>
 <br>
@@ -209,8 +207,7 @@ General schema
 
 <br>
 <center>
-![*General schema of the
-setup*](./images/BasicSchema.jpg)
+![*General schema of the setup*](./images/BasicSchema.jpg)
 
 </center>
 <br>
@@ -292,8 +289,7 @@ General view of the setup
 
 <br>
 <center>
-![*Camera with photo stack setup using a old
-scanner*](./images/fullSetup.jpg)
+![*Camera with photo stack setup using a old scanner*](./images/fullSetup.jpg)
 
 </center>
 <br>
