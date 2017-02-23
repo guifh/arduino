@@ -8,11 +8,10 @@ title: "Focus Stacking Controller"
 
 ### **Disclaimer:**
 
-	<p class="message">The authors cannot be held responsible, in any case, for accidents,
-    personal injuries or damages to your camera and electronic equipment
-    which either derive from or are caused by use or misuse of the
-    information and instructions provided in these tutorials.
-	</p>
+<p class="message">The authors cannot be held responsible, in any case, for accidents,
+personal injuries or damages to your camera and electronic equipment
+which either derive from or are caused by use or misuse of the
+information and instructions provided in these tutorials.</p>
 
 <br>
 
