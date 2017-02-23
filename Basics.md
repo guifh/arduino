@@ -216,7 +216,7 @@ delay() functions according to your motor.
 
 <br>
 
-<pre><code class='language-cs'>
+```cs
 
     int motordirection = 12;
     int motorbrake = 9;
@@ -283,7 +283,8 @@ delay() functions according to your motor.
       }
     }
 
-</code></pre>
+```
+
 <br>
 
 General view of the setup
