@@ -7,19 +7,12 @@ title: "Focus Stacking Controller"
 <br>
 
 ### **Disclaimer:**
- <ol>
-	<li>
+
 	<p class="message">The authors cannot be held responsible, in any case, for accidents,
     personal injuries or damages to your camera and electronic equipment
     which either derive from or are caused by use or misuse of the
     information and instructions provided in these tutorials.
-	</p></li>
-	<li>
-	<p class="message">The bee used to take the photos presented in these tutorials was
-    already dead when we found it. We have a hive in our garden and love
-    bees. Do NOT kill bees.
-	</p></li>
- </ol>
+	</p>
 
 <br>
 
@@ -76,14 +69,14 @@ Note that all prices are in Canadian dollars as of February 18th, 2017.
 </thead>
 <tbody>
 <tr class="odd">
-<td><br><br><br>Arduino UNO R3</td>
+<td><br>Arduino UNO R3</td>
 <td><img src="./images/arduino.jpg" /></td>
-<td><br><br><br>$24.99</td>
+<td><br><br>$24.99</td>
 </tr>
 <tr class="even">
-<td><br><br><br>Arduino motor shield R3</td>
+<td><br>Arduino motor shield R3</td>
 <td><img src="./images/motorShield.jpg" /></td>
-<td><br><br><br>$50.29</td>
+<td><br><br>$50.29</td>
 </tr>
 <tr class="odd">
 <td><br>Old broken scanner <br>(Canon MP250 in our case)</td>
@@ -91,19 +84,19 @@ Note that all prices are in Canadian dollars as of February 18th, 2017.
 <td><br><br>$0</td>
 </tr>
 <tr class="even">
-<td><br><br>Electronic Kit with <br> breadboard, jumper wires,<br> resistors, button,<br> a 4N35 optocoupler &amp; leds</td>
+<td>Electronic Kit with <br> breadboard, jumper wires,<br> resistors, button,<br> a 4N35 optocoupler &amp; leds</td>
 <td><img src="./images/electroKit.jpg" /></td>
-<td><br><br><br><br>$22.99</td>
+<td><br><br>$22.99</td>
 </tr>
 <tr class="odd">
-<td><br><br><br> Switched 4 x AA <br> battery pack</td>
+<td><br> Switched 4 x AA <br> battery pack</td>
 <td><img src="./images/batteryPack.jpg" /></td>
-<td><br><br><br><br>$2.29</td>
+<td><br><br>$2.29</td>
 </tr>
 <tr class="even">
-<td><br><br><br><br>Shutter release cable</td>
+<td><br>Shutter release cable</td>
 <td><img src="./images/shutterCable.jpg" /></td>
-<td><br><br><br><br>$8.00</td>
+<td><br><br>$8.00</td>
 </tr>
 <tr class="odd">
 <td><strong>TOTAL</strong></td>
@@ -215,7 +208,12 @@ General schema
 The Code (C\#)
 ==============
 
+In "while(myCount < 5)", you can replace 5 by the number of photos you want to stack.
+You may also want to tune up the number of ms in the delay() functions according to your motor.
+
 <br>
+
+	```csharp
 
     int motordirection = 12;
     int motorbrake = 9;
@@ -282,6 +280,7 @@ The Code (C\#)
       }
     }
 
+	```
 <br>
 
 General view of the setup
