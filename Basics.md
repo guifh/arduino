@@ -216,7 +216,7 @@ delay() functions according to your motor.
 
 <br>
 
-```cs
+```csharp
 
     int motordirection = 12;
     int motorbrake = 9;
