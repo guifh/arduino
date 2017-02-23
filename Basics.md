@@ -1,3 +1,9 @@
+---
+layout: page
+comments: true
+title: "Focus Stacking Controller"
+---
+
 <br>
 
 ### **Disclaimer:**
